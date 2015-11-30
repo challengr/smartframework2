@@ -1,10 +1,9 @@
 package org.smart4j.chapter2.model;
 
 /**
- * 客户类
  * Created by Wangzhe on 2015/11/30.
  */
-public class Consumer {
+public class Customer {
     private long id;
 
     private String name;
@@ -72,11 +71,10 @@ public class Consumer {
         this.id = id;
     }
 
-    // To String
-
+    // To Strings
     @Override
     public String toString() {
-        return "Consumer{" +
+        return "Customer{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", contact='" + contact + '\'' +
